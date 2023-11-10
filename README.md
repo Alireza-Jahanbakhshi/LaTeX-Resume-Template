@@ -52,5 +52,5 @@ We hope this repository is helpful for you!
 
 Special thanks to:
 
-- Mina Parham for their valuable contributions and support.
+- Mina Parham for their valuable repositories [Visit GitHub](https://github.com/mina-parham) .
 - Alireza Aminidad for creating the EZ-Apply-GPA-Calculator, which served as a helpful reference for this project.
