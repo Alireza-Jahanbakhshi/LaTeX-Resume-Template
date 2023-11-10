@@ -13,7 +13,7 @@ This is a LaTeX template designed for beginners to create their resumes.
 ## Introduction
 
 LaTeX is a powerful typesetting system that enables you to create professional-looking documents.
-This repository provides a template .tex file, along with necessary files, to help you create your resume as quickly as possible.
+This repository provides a template .tex file, along with the necessary files, to help you create your resume as quickly as possible.
 
 ## Getting Started
 
@@ -22,9 +22,9 @@ To get started, make sure you have LaTeX installed on your system. If not, refer
 ## Notes
 
 There are three files you can work with.
-The first file is **resume.cls** that has all the settings your resume file should have. If you're not familiar with the commands in this file, **TRY NOT TO CHANGE THIS FILE.**
+The first file is **resume.cls** which has all the settings your resume file should have. If you're not familiar with the commands in this file, **TRY NOT TO CHANGE THIS FILE.**
 
-The second file is the **your-cd.text**. You can change the parts in this file to anything you desire. All parts are commented and have an example for you.
+The second file is the **your-cd.text**. You can change the parts in this file to anything you desire. All parts are commented on and have an example for you.
 
 The third file is **EZ_Apply_GPA_Calculator.xlsx**, which is an Excel file designed to quickly and easily calculate your GPA. You may need this file to complete your resume.
  
@@ -34,7 +34,7 @@ You can also work with online LaTeX services.
 
 ## Next Step
 
-After making any changes to **your-cv.tex**, you can compile this file. This will give you a PDF file .
+After making any changes to **your-cv.tex**, you can compile this file. This will give you a PDF file.
 An example PDF file is located at the address [**out/your-cv.pdf**](out/your-cv.pdf)
 
 ---
@@ -43,7 +43,14 @@ An example PDF file is located at the address [**out/your-cv.pdf**](out/your-cv.
 
 Feel free to [![repo-forked][repo-forked]][repo-forked] this repository and open a [![git-pull-request][git-pull-request]][git-pull-request].
 
-We hope this repository is helpful for you !
+We hope this repository is helpful for you!
 
 [repo-forked]: https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork
 [git-pull-request]: https://custom-icon-badges.demolab.com/badge/Pull%20Request-purple.svg?logo=pr
+
+## Acknowledgments
+
+Special thanks to:
+
+- Mina Parham for their valuable contributions and support.
+- Alireza Aminidad for creating the EZ-Apply-GPA-Calculator, which served as a helpful reference for this project.
