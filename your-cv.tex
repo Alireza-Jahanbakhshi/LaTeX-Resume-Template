@@ -1,0 +1,170 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%
+%   Note: DO NOT CHANGE THE SETTINGS BELLOW
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+
+% Your name
+\name{XXXXXX XXXXXX}
+
+% Your address
+\address{City, Province, Iran. \\ (+98)9xxxxxxxxx}
+
+% Your importatnt accounts-website
+\address{\href{mailto:your_email_address@gmail.com}{\Large\faEnvelope \hspace{3pt}} \\
+\href{https://github.com/your_github_username}{\hspace{3pt} \Large\faGithub \hspace{3pt} } \\
+\href{https://www.linkedin.com/in/your_linkedin_username/}{\hspace{3pt} \Large\faLinkedin \hspace{3pt}} \\
+\href{http://your_website_address.com}{\hspace{5pt} \Large\faGlobe}}
+\address {Curriculum vitae last updated on \today}
+
+\begin{document}
+    %----------------------------------------------------------------------------------------
+    %	RESEARCH INTEREST SECTION
+    %----------------------------------------------------------------------------------------
+    % Any interests can be here
+    \begin{rSection}{Research Interests}
+        \textbf{$\bullet$ Computer Graphics} \hspace*{16pt}
+        \textbf{$\bullet$ Deep Learning}\hspace*{16pt}
+        \textbf{$\bullet$ Artificial Intelligence}\hspace*{16pt}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	EDUCATION SECTION
+    %----------------------------------------------------------------------------------------
+    \begin{rSection}{Education}
+    % Your bachelor:
+    {\bf Bachelor of Science in Computer Engineering}
+        \hfill {\em 2020--2024} \\ % The year
+        \href{https://sku.ac.ir}{\textcolor{coolblack}{Shahrekord University, Chaharmahal and Bakhtiari Province, Iran}}\\ % Your University
+        CGPA: 4/4\\ % your CGPA (you can use "EZ Apply GPA Calculator")
+        % you can add any related cources
+        Selected Courses
+        \footnote{\textit{Introduction to Computer and Programming : $A^{+}$};
+        \textcolor{blue}{Computer Architecture : $A^{+}$ }; \textit{Data Structure : $A^{+}$};
+        \textcolor{blue}{Algorithm Design : $A^{+}$}; \textit{Theory of Languages \& Automata : $A^{+}$};
+        \textcolor{blue}{Computer Networks : $A$}; \textit{Database : $A^{+}$};
+        \textcolor{blue}{Microprossesor and Assembly Language : $A$}; \textit{Advanced Programming1--2 : $A^{+}$};
+        \textcolor{blue}{Compiler Design: $A$}; \textit{Principles of Operating Systems : $A^{+}$};
+        \textcolor{blue}{Software Engineering : $A^{+}$}; \textit{Computer Graphics : $A^{+}$ }; \\}
+    \end{rSection}
+
+    % Your TOFEL, IELTS or any important test:
+    % change the scores as you can see
+    \begin{rSection}{Test Scores}
+        \begin{itemize}{\bfseries}
+            \item {\bfseries TOEFL: X (R:  L:  S:  W: )}
+            \item {\bfseries GRE:   Y (V:  Q:  AWA: )}
+        \end{itemize}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	RESEARCH EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+    \begin{rSection}{Research Experience}
+        % format: link, title, year, other details
+        \begin{rSubsection}{\href{https://link_to_your_research.com}{\textcolor{coolblack}{Research Title}}}{2019-2020}{BSc Project, Supervisor: Dr. Brown}{ }
+            \item Any results you got like: solved pursuit-evasion problem with multi-agent deep reinforcement learning
+        \end{rSubsection}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	TEACHING EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+    % Add any teaching experience (TA, ...)
+    \begin{rSection}{Teaching Experience}
+        \begin{rSubsection}{TA, Operating System Lab}{Spring 2023}{Instructor: Dr. Abbas Horri}{ }
+        \end{rSubsection}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	Work  EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+    \begin{rSection}{Work Experience}
+        % format: work title, year, link to company, name of company
+        \begin{rSubsection}{Data Developer}{January 2022 - June 2022}{\href{https://yasanacademy.ir}{\textcolor{coolblack}{Yasan Academy}}}{ }
+            \item Teach Python to elementary school students
+        \end{rSubsection}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	EXTRACURRICULAR EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+    % Add any workshops you attended
+    \begin{rSection}{Trainings and Workshops Attended}
+        % format: link to degree, workshop title, year, link to workshop website, name of institution
+        \begin{rSubsection}{\href{https://link_to_your_degree.com}{\textcolor{coolblack}{Summer School in Computer Science}}}{August 24th-27th, 2019}{\href{https://teias.institute/data-science-and-machine-learning/}{\textcolor{coolblack}{Tehran Institute for Advanced Studies at Khatam University}}}{ }
+            \item Any other details: participated in a 32-Hour Summer School in Computer Science with special theme on: Data Science and Machine Learning
+        \end{rSubsection}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	PROJECTS SECTION
+    %---------------------------------------------------------------------------------------
+    % Add any university projects, freelancing or any other projects
+    \begin{rSection}{Projects}
+        % format: link to your project, project subject, year, project title
+        \begin{rSubsection}{\href{https://link_to_your_project}{\textcolor{coolblack}{Multi-Agent Deep Reinforcement Learning}}}{2019 - 2020}{BSc Project}{ }
+            \item Any other details about it: solved pursuit-evasion problem with multi-agent deep reinforcement learning
+        \end{rSubsection}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	HONORS AND AWARDS SECTION
+    %----------------------------------------------------------------------------------------
+    % Add any honors or award you got, even sports
+    \begin{rSection}{Honors and Awards}
+        \begin{rSubsection}{4th Place - RoboCup Asia-Pacific 2018}{Fall 2018}{Math and Comptuer Science Faculty}{ }
+            \item Field: Rescue Simulation Virtual Robot
+            \item Team: X Team
+        \end{rSubsection}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	SKILLS SECTION
+    %----------------------------------------------------------------------------------------
+    % Add any skills you've got
+    \begin{rSection}{SKILLS}
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+            Programming Languages & Python, C/C++,                                              \\
+            Web Technologies      & HTML, CSS, Javascript, SQL Server, Django                   \\
+            Libraries             & numPy, Pandas, TensorFlow, Keras, Matplotlib                \\
+            Robotics              & Robot Operating System(ROS), Gazebo                         \\
+            Operating Systems     & Linux, Windows                                              \\
+            Languages             & Persian, English                                            \\
+            Miscellaneous         & \LaTeX, Git, Microsoft Office                               \\
+        \end{tabular}
+    \end{rSection}
+
+    %----------------------------------------------------------------------------------------
+    %	REFERENCES SECTION
+    %----------------------------------------------------------------------------------------
+    \begin{rsection}
+        \vspace{10mm}
+        \centerline{\underline{\textbf{\faExclamationCircle \hspace{0.5 pt} References, further information, and proofs are available upon request}}}
+    \end{rsection}
+\end{document}
